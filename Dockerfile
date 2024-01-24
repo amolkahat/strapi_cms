@@ -15,7 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
-RUN npm build
+RUN npm run build
 EXPOSE 1337
 
 CMD [ "npm", "start" ]
